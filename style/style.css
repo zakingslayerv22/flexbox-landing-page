@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid green;
-} */
+}
 
 body {
     min-height: 100vh;
@@ -94,4 +94,19 @@ ul {
     font-weight: bold;
     width: 90px;
     height: 50px;
+}
+
+.delicacies-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-cards {
+    display: flex;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
 }
